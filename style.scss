@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+.director-card {
+    width: 975px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid darkcyan;
+    margin: 0 auto;
+}
+
+.director-card__name{
+    margin-left: 5%;
+    font-size: 30px;
+
+}
+.director-card__job{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.director-card__films{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+
+}
+
+.top-films__collection{
+    font-size: 20px;
+}
